@@ -1,7 +1,7 @@
 # Tests for segregation
 
 ##### For two species patterns:
-
+#' @export
 dixon<-function(X, prepR=0) {
 	dbg<-FALSE
 	if(!is.factor(X$marks))warning("Marks of X are not in factor form. Transforming.")
@@ -105,6 +105,8 @@ dixon<-function(X, prepR=0) {
 }
 
 # print method
+#' @exportMethod print
+#' @export
 print.segtest<-function(x, ...)
 {
 	

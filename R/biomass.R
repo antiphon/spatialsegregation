@@ -1,12 +1,18 @@
-# biomass.R
-# 
-# Neighbourhood mass-element sum.
-# 
-# Author: Tuomas Rajala <tarajala@jyu.fi>
-###############################################################################
-
-# biomassF
-
+#' Local biomass summary
+#' 
+#' Compute the biomass around points as a function of spatial scale.
+#' 
+#' @param X Multitype point pattern of class \code{\link{ppp}} (see package 'spatstat'). The biomass (e.g. size) is to be in an element $mass.
+#' @param r Vector of sizes for neighbourhoods, e.g. ranges in the \code{geometric} graph neighbourhoods.
+#' @param target Default NULL. Calculate only for target type. If NULL compute mean over all types.
+#' @param v2 Logical. Return the average biomass instead of just sum (development nomenclature)
+#' @param ... Further parameters for the function \code{\link{segregationFun}}.
+#' 
+#' @return 
+#' 
+#'  Returns an \code{fv}-object, see \code{spatstat} for more information. 
+#' 
+#' @export
 
 biomassF<-function(X, r=NULL, target=NULL, v2=FALSE, ...)
 {
