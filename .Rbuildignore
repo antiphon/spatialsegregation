@@ -1,0 +1,5 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+change.log
+.DS_Store
+toadd.txt
