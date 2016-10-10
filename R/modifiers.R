@@ -23,6 +23,7 @@ clean.up.data<-function(pp,dbh=10,atleast=10)
 	p
 }
 ####################################################################################
+#' @import stats
 #' @export
 shake<-function(pp, a=0.001)
 {

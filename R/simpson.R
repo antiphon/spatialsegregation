@@ -76,7 +76,7 @@ simpsonF<-function(X, r=NULL, ...)
 
 ####################################################################################################
 #' @export
-#' @describeIn simpsonF
+#' @describeIn simpsonF The Spatial Simpson Index 
 simpson.index<-function(X, spatial=FALSE, ...)
 {
 	#the traditional aspatial Simpson index 1-D
