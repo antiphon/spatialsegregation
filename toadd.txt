@@ -5,6 +5,6 @@
 	- CRAN versio adaptiivisesta borderista
 
 # 090112:
-	- spatstat-in bdist.points-function käyttöön jotta saadaan muutkin kuin nelikulmioikkunat hanskattua.
+	- spatstat-in bdist.points-function k?ytt??n jotta saadaan muutkin kuin nelikulmioikkunat hanskattua.
 	- tarkista shannon: tulee negatiivisia lukuja.	
 	

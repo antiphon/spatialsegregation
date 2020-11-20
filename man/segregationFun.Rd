@@ -4,11 +4,24 @@
 \alias{segregationFun}
 \title{Main computer function for spatialsegregation}
 \usage{
-segregationFun(X, fun = "isar", r = NULL, ntype = "geometric",
-  funpars = NULL, toroidal = FALSE, minusRange = TRUE,
-  included = NULL, dbg = FALSE, doDists = FALSE, prepRange = 0,
-  prepGraph = NULL, prepGraphIsTarget = FALSE, weightMatrix = NULL,
-  translate = FALSE, ...)
+segregationFun(
+  X,
+  fun = "isar",
+  r = NULL,
+  ntype = "geometric",
+  funpars = NULL,
+  toroidal = FALSE,
+  minusRange = TRUE,
+  included = NULL,
+  dbg = FALSE,
+  doDists = FALSE,
+  prepRange = 0,
+  prepGraph = NULL,
+  prepGraphIsTarget = FALSE,
+  weightMatrix = NULL,
+  translate = FALSE,
+  ...
+)
 }
 \arguments{
 \item{X}{Multitype point pattern of class \code{ppp} (see package 'spatstat')}
